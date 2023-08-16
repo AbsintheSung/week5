@@ -1,0 +1,40 @@
+.nav{
+    /*   border:1px solid black; */
+    position: fixed;
+    min-width: 296px;
+    min-height: 100vh;
+    padding-left: 32px;
+}
+
+.nav-title{
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+.nav-icon{
+    margin-right: 16px;
+}
+
+.nav-list-item{
+	// >a{
+    //     text-decoration: none;
+    // }
+}
+
+.nav-admin-pic{
+    width: 40px;
+    height: 40px;
+}
+.nav-list-item:nth-child(5){
+    a{
+        color:$success;
+    }
+}
+.nav-list-item:nth-child(5)::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid $success;
+}

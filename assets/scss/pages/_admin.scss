@@ -1,0 +1,43 @@
+.admin-container{
+    /* 側邊欄位的寬度296，和原本就需要和側邊欄位的距離32px  296+32*/
+    padding-left: 328px;
+    padding-right: 32px;
+    min-height: 100vh;
+}
+.admin-a-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+//按鈕
+.page-list{
+    border-radius: 2px;
+    &__first,&__last,&__item{
+        width: 32px;
+        height: 32px;
+    }
+    &__first{
+        border-radius: 2px 0px 0px 2px;
+    }
+    &__last{
+        border-radius: 0px 2px 2px 0px;
+    }
+    &__first:hover,
+    &__last:hover{
+        background-color: $success;
+        cursor: pointer;
+        span{
+            color:#FFFFFF;
+        }
+    }
+    &__item:hover{
+        background-color: $success;
+        cursor: pointer;
+        color:#FFFFFF;
+    }
+}
+.page-list__item:nth-child(2){
+    background-color: $success;
+    color:#FFFFFF;
+}

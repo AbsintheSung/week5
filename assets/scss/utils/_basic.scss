@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+//自行文字大小設定
+.fs-14{
+    font-size: 14px;
+}
+
+//自行顏色設定
+.gray-900{
+    color:$gray-900;
+}
+.gray-600{
+    color:$gray-600;
+}
+
+
+//自行間距設定
+.ms-7{
+    margin-left: 7px;
+}
+.me-8{
+    margin-right: 8px;
+}
+.ms-8{
+    margin-left: 8px;
+}
+
+.me-12{
+    margin-right: 12px;
+}
+.ms-12{
+    margin-left: 12px;
+}
+.ms-24{
+    margin-left:24px
+}
+.me-24{
+    margin-right: 24px;
+}
+.mb-29{
+    margin-bottom: 29px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+
+
+.pt-32{
+    padding-top: 32px;
+}
+.ps-32{
+    padding-left: 32px;
+}
+.pe-32{
+    padding-bottom: 32px;
+}
+.py-15_5{
+    padding-top: 15.5px !important;
+    padding-bottom: 15.5px !important;
+}
+
+
+//其他設定
+.icon-vertical-align{
+    vertical-align: middle;
+}
+
+.d-flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
